@@ -14,8 +14,8 @@ It should be noted that in the original definition of the Course Project, naming
 
 The following packages must be installed previous to running the script, and are automatically initialized at the start of the script.
 
-*dplyr
-*reshape2
+* dplyr
+* reshape2
 
 
 ## Steps
