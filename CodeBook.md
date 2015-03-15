@@ -31,23 +31,19 @@ The following packages must be installed previous to running the script, and are
 
 ## Variables
 
-*url: Link to the zip file with the data.
-
-*features: Data frame with the data from features.txt 
-*y_train: Data frame with the data from y_train.txt
-*y_test: Data frame with the data from y_test.txt
-*subject_test: Data frame with the data from subject_test.txt
-*subject_train: Data frame with the data from subject_train.txt
-*activity_labels <- Data frame with the data from activity_labels.txt
-*X_train: Data frame with the data from X_train.txt
-*X_test: Data frame with the data from X_test.txt
-
-*data: The X_train and X_test data frames binded.
-
-means: A numerical vector containing the position of the columns in X_train and X_test with the string "mean()" in them
-sdevs: A numerical vector containing the position of the columns in X_train and X_test with the string "std()" in them
-filter: A numerical vector containing the position of the columns in X_train and X_test with either the string "mean()" or "std()" in them
-data2: The values of the data frame "data", excluding all columns whose names don not include either the string "mean()" or "std()" in them
-
-moltenData: A molten data frame made from data frame "data2" using the columns "Subject" and "Activity" as ID's
-tidy_ds: A tidy data set containing the averages of every column in data frame "data2" for every combination of "Subject" and "Activity"
+* url: Link to the zip file with the data.
+* features: Data frame with the data from features.txt 
+* y_train: Data frame with the data from y_train.txt
+* y_test: Data frame with the data from y_test.txt
+* subject_test: Data frame with the data from subject_test.txt
+* subject_train: Data frame with the data from subject_train.txt
+* activity_labels <- Data frame with the data from activity_labels.txt
+* X_train: Data frame with the data from X_train.txt
+* X_test: Data frame with the data from X_test.txt 
+* data: The "X_train" and "X_test" data frames binded.
+* means: A numerical vector containing the position of the columns in "X_train" and "X_test" with the string "mean()" in them
+* sdevs: A numerical vector containing the position of the columns in "X_train" and "X_test" with the string "std()" in * them
+* filter: A numerical vector containing the position of the columns in "X_train" and "X_test" with either the string "mean()" or "std()" in them
+* data2: The values of the data frame "data", excluding all columns whose names don not include either the string "mean()" or "std()" in them
+* moltenData: A molten data frame made from data frame "data2" using the columns "Subject" and "Activity" as ID's
+* tidy_ds: A data framet containing the averages of every column in "data2" for every combination of "Subject" and "Activity"
