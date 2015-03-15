@@ -2,11 +2,11 @@
 
 The script run_analysis.R performs the five tasks required for the Course Project. Namely, run_analysis.R:
 
-*Uses descriptive activity names to name the activities in the data set
-*Extracts only the measurements on the mean and standard deviation for each measurement. 
-*Merges the training and the test sets to create one data set.
-*Appropriately labels the data set with descriptive variable names. 
-*Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Uses descriptive activity names to name the activities in the data set
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Merges the training and the test sets to create one data set.
+* Appropriately labels the data set with descriptive variable names. 
+* Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 It should be noted that in the original definition of the Course Project, naming the activities with aproppriate names was the third step.
 
